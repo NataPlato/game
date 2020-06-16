@@ -1,0 +1,46 @@
+.header {
+  height: 84px;
+}
+.header__top-menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 28px;
+}
+
+.header__logo {
+  width: 56px;
+  height: 56px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.header__arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 175px;
+}
+.header__dropdown {
+  padding-right: 33px;
+}
+
+.header__icon {
+  position: relative;
+  width: 77px;
+  display: flex;
+  justify-content: space-between;
+
+  &::before {
+    position: absolute;
+    content: "";
+    height: 30px;
+    left: -27px;
+    opacity: 0.5;
+    border: 0.9px solid #ffffff;
+  }
+}
+.mobile__menu-icon {
+  position: absolute;
+}

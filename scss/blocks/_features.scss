@@ -1,0 +1,88 @@
+.features {
+  background: radial-gradient(
+      51.1% 80.48% at 30.85% 53.65%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 19.2%,
+      rgba(4, 5, 6, 0.520671) 47.48%,
+      #090b0c 99.74%
+    ),
+    radial-gradient(
+      38.76% 48.3% at 70.49% 41.61%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 15.11%
+    ),
+    url(./../img/features/bg-image-features.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.features__container {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.features__content {
+  max-width: 412px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.feature__subtitle {
+  margin-bottom: 10px;
+}
+
+.feature__title {
+  margin-bottom: 71px;
+}
+
+.feature__accordeon {
+  list-style: none;
+  margin-left: 38px;
+  padding: 0;
+}
+
+.feature__accordeon-dot {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  left: -38px;
+  transform: translateY(70%);
+}
+
+.active {
+  background: #ffffff;
+}
+
+.feature__accordeon-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.feature__item-title {
+  border: none;
+  background-color: black;
+  cursor: pointer;
+
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #ffb548;
+
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+  .header__container {
+    height: 52px;
+  }
+  .header__top-menu {
+    padding-top: 0;
+  }
+
+  .header__logo {
+    width: 33px;
+    height: 33px;
+  }
+
+  .header__arrow {
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding-right: 55px;
+  }
+
+  .header__icon {
+    &::before {
+      left: -17px;
+    }
+  }
+}

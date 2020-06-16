@@ -1,0 +1,38 @@
+
+@media (max-width: 900px) {
+  .features {
+    height: auto;
+    background-position: left 45% center;
+  }
+  .features__container {
+    justify-content: flex-end;
+  }
+  .features__content {
+    width: 205px;
+    margin-top: 35px;
+  }
+  .feature__title {
+    margin-bottom: 23px;
+  }
+  .feature__accordeon-dot.active ~ .feature__item-title {
+    margin: 0;
+  }
+
+  .feature__item-title {
+    background-color: rgba(0, 0, 0, 0.048);
+    font-size: 21px;
+    line-height: 21px;
+    padding: 0;
+    text-align: start;
+    margin-bottom: 41px;
+  }
+
+  .feature__accordeon {
+    margin-left: 15px;
+  }
+
+  .feature__accordeon-dot {
+    left: -21px;
+    transform: translateY(25%);
+  }
+}

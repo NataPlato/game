@@ -1,0 +1,57 @@
+.about {
+  background: radial-gradient(
+      136.03% 54.57% at 50% 48.04%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 60.63%,
+      rgba(8, 10, 11, 1) 99.74%
+    ),
+    linear-gradient(rgba(15, 15, 15, 0.9), rgba(15, 15, 15, 0.9)),
+    url(./../img/about/bac-about-n.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.about__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+  .about__left {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 25px;
+ 
+}
+
+.about__subtitle {
+  margin-bottom: 22px;
+}
+
+.about__title {
+  position: relative;
+  text-align: left;
+  margin-bottom: 86px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 712px;
+    left: 0;
+    bottom: -15px;
+    background: #ffffff;
+    border-radius: 4px;
+    z-index: 200;
+  }
+}
+
+.about__text {
+  align-self: flex-end;
+  max-width: 365px;
+}

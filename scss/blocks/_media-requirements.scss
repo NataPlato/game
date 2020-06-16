@@ -1,0 +1,35 @@
+@media (max-width: 900px) {
+    .requirements {
+        background-position: left 70% bottom;
+        height: auto;
+    }
+  .requirements__container {
+    align-items: center;
+    padding-bottom: 25%;
+    padding-top: 15%;
+  }
+  .requirements__content {
+    padding-bottom: 20px;
+  }
+
+  .requirements__title {
+      text-align: justify;
+      font-size: 32px;
+  }
+  .requirements__wrapper {
+    width: 145px;
+    height: 110px;
+    padding: 10px;
+  }
+
+  .requirements__content-wrapper {
+    width: 290px;
+  }
+
+  .requirements__wrapper-subtitle {
+    text-align: start;
+  }
+  .requirements__wrapper-text {
+      text-align: start;
+  }
+}

@@ -1,0 +1,124 @@
+.quotes {
+  background: radial-gradient(
+      70.52% 37.27% at 24.21% 47.47%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 51.1%,
+      #080a0b 99.74%
+    ),
+    radial-gradient(
+      78.66% 177.87% at 19.56% 37.57%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 19.22%,
+      #080a0b 99.74%
+    ),
+    url(./../img/quotes/bg-image-quotes.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.quotes__container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quotes__content {
+  max-width: 438px;
+  max-height: 387px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.quotes__subtitle {
+  margin-bottom: 13px;
+}
+
+.quotes__title {
+  margin-bottom: 37px;
+}
+
+.quotes__text {
+  margin-bottom: 59px;
+}
+.quotes__button {
+  width: 260px;
+  height: 60px;
+  background: linear-gradient(183.46deg, #ffb548 11.27%, #f3af34 90.4%);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s color ease-in;
+
+  &:hover {
+    background: $linkColor;
+  }
+}
+
+.quotes__button-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+
+  font-family: $buttonFont;
+  color: #1a1917;
+}
+
+.quotes__cards {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.quotes__card {
+  width: 453px;
+  height: 205px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px 20px 21px 17px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  margin-bottom: 30px;
+
+  &:nth-child(2) {
+    align-self: flex-start;
+  }
+  &:nth-child(3) {
+    margin-right: 39px;
+  }
+}
+
+.quotes__card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quotes__title-icon {
+  margin-right: 22px;
+}
+.quotes__title-info {
+  flex-grow: 1;
+}
+.quotes__social {
+  align-self: flex-start;
+  padding-top: 15px;
+}
+.quotes__name {
+  color: #ffb548;
+}
+.quotes__magazine {
+  opacity: 0.5;
+}
+
+.quotes__date {
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+  opacity: 0.5;
+}

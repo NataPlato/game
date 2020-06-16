@@ -1,0 +1,38 @@
+@media (max-width: 1439px) {
+  .about__title {
+    margin-bottom: 36px;
+    &::after {
+      width: 606px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .about {
+    height: auto;
+  }
+  .about__container {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .about__left {
+    justify-content: start;
+    padding: 0;
+  }
+  .about__subtitle {
+    margin-bottom: 0;
+    text-align: start;
+  }
+  .about__title {
+    margin-bottom: 36px;
+    &::after {
+      width: 306px;
+    }
+  }
+
+  .about__text {
+    padding-left: 25px;
+    padding-right: 14px;
+  }
+}

@@ -1,0 +1,96 @@
+.action {
+  background: radial-gradient(
+      189.96% 61.18% at 50% 38.82%,
+      rgba(255, 181, 72, 0) 0%,
+      rgba(52, 44, 29, 0.80319) 73.22%,
+      #08090a 99.74%
+    ),
+    url(./../img/action/bac-header-n.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.action__container {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 84px);
+  padding-top: 23vh;
+}
+
+.action__title {
+  padding-bottom: 11px;
+}
+.action__subtitle {
+  padding-bottom: 31px;
+}
+.action__items {
+  width: 260px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+ 
+
+  color: #1a1917;
+  background: linear-gradient(183deg, #ffb548 12%, #f3af34 90%);
+  border-radius: 4px;
+  transition: 0.2s color ease-in;
+  cursor: pointer;
+
+  span {
+    position: relative;
+    margin-right: 13px;
+    margin-left: 13px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: 24px;
+      right: 0;
+      top: -13px;
+      opacity: 0.5;
+      border: 1px solid #1a1917;
+     
+    }
+  }
+
+  &:hover {
+    background: $linkColor;
+    color: #1a1917;
+  }
+}
+
+.action__link {
+  position: absolute;
+  bottom: 53px;
+ 
+}
+.action__link-scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.83;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  svg {
+    stroke: white;
+  }
+
+  &:hover svg {
+    stroke: $linkColor;
+  }
+}
