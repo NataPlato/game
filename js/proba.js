@@ -86,7 +86,6 @@
 // var name;
 // console.log(name);
 
-
 // console.log(user);
 // console.log(oldUser);
 // console.log(age);
@@ -97,3 +96,22 @@
 // function foo(){
 //     console.log(1);
 // }
+
+// function glas(char, array) {
+//   for (let i = 0; i < array.length; i++) {
+//     if (char == array[i]) {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
+// function funtic(a, b = "аоуиеяюэыё") {
+//   let result = "";
+//   for (let i = 0; i < a.length; i++) {
+//     if (glas(a[i], b)) {
+//       result += (a[i]);
+//     }
+//   }
+//   return result;
+// }
+// console.log(funtic("В лесу родилась дурочка"));
