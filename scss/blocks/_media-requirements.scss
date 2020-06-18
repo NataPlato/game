@@ -1,8 +1,8 @@
 @media (max-width: 900px) {
-    .requirements {
-        background-position: left 70% bottom;
-        height: auto;
-    }
+  .requirements {
+    background-position: left 70% bottom;
+    height: auto;
+  }
   .requirements__container {
     align-items: center;
     padding-bottom: 25%;
@@ -13,8 +13,8 @@
   }
 
   .requirements__title {
-      text-align: justify;
-      font-size: 32px;
+    text-align: justify;
+    font-size: 32px;
   }
   .requirements__wrapper {
     width: 145px;
@@ -30,6 +30,6 @@
     text-align: start;
   }
   .requirements__wrapper-text {
-      text-align: start;
+    text-align: start;
   }
 }

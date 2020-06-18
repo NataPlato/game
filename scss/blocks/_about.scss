@@ -20,13 +20,12 @@
   height: 100%;
 }
 
-  .about__left {
-    max-width: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-right: 25px;
- 
+.about__left {
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 25px;
 }
 
 .about__subtitle {
