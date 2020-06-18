@@ -1,0 +1,1 @@
+Toy-project верстка по бемплатному макету https://dribbble.com/shots/10709930-Freebie-Game-landing-page
